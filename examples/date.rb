@@ -2,4 +2,4 @@ require 'java'
 
 date = java.util.Date.new
 
-puts "Dziś mamy #{date}"
+puts "Today is #{date}"
