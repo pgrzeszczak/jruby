@@ -1,0 +1,1 @@
+puts "Today is #{Time.now}"
