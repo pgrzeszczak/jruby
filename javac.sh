@@ -6,4 +6,4 @@ docker run --rm -ti \
     -v $(pwd):/project \
     -w /project \
     pgrzeszczak/jruby \
-    javac "$@"
+    javac -cp .:/usr/local/rvm/rubies/jruby-9.0.4.0/lib/jruby.jar "$@"
