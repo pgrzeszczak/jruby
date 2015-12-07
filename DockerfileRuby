@@ -1,7 +1,0 @@
-FROM pgrzeszczak/jruby
-
-MAINTAINER Przemysław Grzeszczak "przemyslaw.grzeszczak@gmail.com"
-
-RUN /bin/bash -l -c "rvm install 2.2.3"
-
-CMD bash
